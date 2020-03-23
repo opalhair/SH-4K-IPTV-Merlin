@@ -25,7 +25,7 @@ echo 正在删除旧文件
 rm -rf nat-start*
 #下载开机运行脚本
 echo 正在下载新文件
-wget -q --no-check-certificate https://raw.githubusercontent.com/PatrikYang/SH-4K-IPTV-Merlin/master/nat-start
+wget -q --no-check-certificate https://raw.githubusercontent.com/opalhair/SH-4K-IPTV-Merlin/master/nat-start
 #设置权限
 chmod -R 0755 nat-start
 #完成提示
@@ -45,7 +45,7 @@ echo 正在删除旧文件
 rm -rf iptv.conf
 #下载新配置文件
 echo 正在下载新文件
-wget -q --no-check-certificate https://raw.githubusercontent.com/PatrikYang/SH-4K-IPTV-Merlin/master/iptv.conf
+wget -q --no-check-certificate https://raw.githubusercontent.com/opalhair/SH-4K-IPTV-Merlin/master/iptv.conf
 #设置权限
 chmod -R 0644 iptv.conf
 #完成提示
